@@ -32,7 +32,7 @@ export function InteractiveLandingPage() {
             <a href="#mini-games" className="hover:text-orange-500 transition-colors">Mini-Juegos</a>
             <button className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors flex items-center">
               <LuDownload className="mr-2" size={18} />
-              Download App
+              Descargar App
             </button>
           </div>
         </nav>
