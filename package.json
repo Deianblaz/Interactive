@@ -2,7 +2,7 @@
   "name": "interactive-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http:/Deianblaz.github.io/Interactive",
+  "homepage": "http:/Deianblaz.github.io/interactive",
   "dependencies": {
     "@nextui-org/react": "^2.4.8",
     "@testing-library/jest-dom": "^5.17.0",

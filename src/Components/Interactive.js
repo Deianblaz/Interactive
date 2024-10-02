@@ -29,7 +29,7 @@ export function InteractiveLandingPage() {
           <div className="flex items-center space-x-6">
             <a href="#installation" className="hover:text-orange-500 transition-colors">Installation</a>
             <a href="#new-version" className="hover:text-orange-500 transition-colors">New Version</a>
-            <a href="#mini-games" className="hover:text-orange-500 transition-colors">Mini Games</a>
+            <a href="#mini-games" className="hover:text-orange-500 transition-colors">Mini-Juegos</a>
             <button className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors flex items-center">
               <LuDownload className="mr-2" size={18} />
               Download App
