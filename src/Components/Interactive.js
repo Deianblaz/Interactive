@@ -20,17 +20,17 @@ export function InteractiveLandingPage() {
   return (
     <div className="min-h-screen text-white">
       <motion.div
-        className="fixed top-0 left-0 right-0 h-1 bg-orange-500 origin-[0%]"
+        className="fixed top-0 left-0 right-0 h-1 bg-[#6aa84f] origin-[0%]"
         style={{ scaleX }}
       />
-      <header className="fixed top-0 left-0 right-0  bg-opacity-90 z-50">
+      <header className="fixed top-0 left-0 right-0 bg-opacity-90 z-50">
         <nav className="container mx-auto px-6 py-3 flex items-center justify-between">
-          <a href="#" className="text-2xl font-bold text-orange-500">Interactive</a>
+          <a href="#" className="text-2xl font-bold text-[#6aa84f]">Interactive</a>
           <div className="flex items-center space-x-6">
-            <a href="#installation" className="hover:text-orange-500 transition-colors">Installation</a>
-            <a href="#new-version" className="hover:text-orange-500 transition-colors">New Version</a>
-            <a href="#mini-games" className="hover:text-orange-500 transition-colors">Mini-Juegos</a>
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition-colors flex items-center">
+            <a href="#installation" className="hover:text-[#6aa84f] transition-colors">Installation</a>
+            <a href="#new-version" className="hover:text-[#6aa84f] transition-colors">New Version</a>
+            <a href="#mini-games" className="hover:text-[#6aa84f] transition-colors">Mini-Juegos</a>
+            <button className="bg-[#6aa84f] text-white px-4 py-2 rounded-md hover:bg-[#55923b] transition-colors flex items-center">
               <LuDownload className="mr-2" size={18} />
               Descargar App
             </button>
@@ -48,7 +48,7 @@ export function InteractiveLandingPage() {
           >
             <h1 className="text-5xl font-bold mb-6">Welcome to Interactive</h1>
             <p className="text-xl mb-8">Experience the future of interactive applications</p>
-            <button className="bg-orange-500 text-white px-6 py-3 rounded-md text-lg hover:bg-orange-600 transition-colors flex items-center justify-center mx-auto">
+            <button className="bg-[#6aa84f] text-white px-6 py-3 rounded-md text-lg hover:bg-[#55923b] transition-colors flex items-center justify-center mx-auto">
               <LuDownload className="mr-2" size={24} />
               Get Started
             </button>
@@ -62,7 +62,7 @@ export function InteractiveLandingPage() {
           className="min-h-screen flex items-center justify-center"
         >
           <div className="text-center">
-            <LuFileCode size={64} className="mx-auto mb-6 text-orange-500" />
+            <LuFileCode size={64} className="mx-auto mb-6 text-[#6aa84f]" />
             <h2 className="text-3xl font-bold mb-4">Easy Installation</h2>
             <p className="text-xl">Get up and running in minutes with our simple setup process</p>
           </div>
@@ -75,7 +75,7 @@ export function InteractiveLandingPage() {
           className="min-h-screen flex items-center justify-center"
         >
           <div className="text-center">
-            <LuZap size={64} className="mx-auto mb-6 text-orange-500" />
+            <LuZap size={64} className="mx-auto mb-6 text-[#6aa84f]" />
             <h2 className="text-3xl font-bold mb-4">New Version Available</h2>
             <p className="text-xl">Discover the latest features and improvements</p>
           </div>
@@ -88,7 +88,7 @@ export function InteractiveLandingPage() {
           className="min-h-screen flex items-center justify-center"
         >
           <div className="text-center">
-            <LuGamepad2 size={64} className="mx-auto mb-6 text-orange-500" />
+            <LuGamepad2 size={64} className="mx-auto mb-6 text-[#6aa84f]" />
             <h2 className="text-3xl font-bold mb-4">Exciting Mini Games</h2>
             <p className="text-xl">Take a break and enjoy our collection of fun mini games</p>
           </div>

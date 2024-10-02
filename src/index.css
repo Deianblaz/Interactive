@@ -13,3 +13,21 @@ body {
   font-weight: 400;
   font-family: helvetica neue, segoe ui, helvetica, verdana, sans-serif;
 }
+
+/* <-------------------------------- Scrollbar -------------------------------------------> */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho de la scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #2a2a2a; /* Color de la pista de la scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6aa84f; /* Color del pulgar de la scrollbar */
+  border-radius: 4px; /* Bordes redondeados del pulgar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4d4d4d; /* Color del pulgar cuando el ratón está sobre él */
+}
